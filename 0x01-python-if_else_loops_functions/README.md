@@ -75,6 +75,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 #TASKS
 
-0. Positive anything is better than negative nothing [0-positive_or_negative.py](./0-positive_or_negative.py) - 
+0. Positive anything is better than negative nothing [0-positive_or_negative.py](./0-positive_or_negative.py) - This program will assign a random signed number to the variable number each time it is executed. Complete the [source code](https://github.com/alx-tools/0x01.py/blob/master/0-positive_or_negative_py) in order to print whether the number stored in the variable number is positive or negative.
 
 1. The last digit [1-last_digit.py](./1-last_digit.py)
