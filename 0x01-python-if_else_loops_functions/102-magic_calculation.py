@@ -9,7 +9,7 @@ def magic_calculation(a, b, c):
     elif c > b:
         return a + b
     else:
-        return (a * b) - c 
+        return (a * b) - c
 
 # print(magic_calculation(1, 2, 3))
 # print(magic_calculation(2, 1, 3))
