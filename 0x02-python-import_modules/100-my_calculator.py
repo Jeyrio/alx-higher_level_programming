@@ -18,6 +18,7 @@ if __name__ == "__main__":
     b = int(arguments[2])
 
     operators = {"+":add, "-":sub, "*":mul, "/":div}
+
     if operator not in operators.keys():
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
