@@ -21,4 +21,4 @@ if __name__ == "__main__":
     if operator not in operators.keys():
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
-print("{} {} {} = {}".format(a, operator, b, operators[operator](a, b)))
+    print(f"{a} {operator} {b} = {operators[operator](a, b)}")
