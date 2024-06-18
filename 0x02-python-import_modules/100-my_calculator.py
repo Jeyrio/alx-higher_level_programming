@@ -7,8 +7,8 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
 
     arguments = argv[1:]
-
     num_argument = len(arguments)
+
     if num_argument != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
@@ -22,4 +22,5 @@ if __name__ == "__main__":
     if operator not in operators.keys():
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
+
     print(f"{a} {operator} {b} = {operators[operator](a, b)}")
