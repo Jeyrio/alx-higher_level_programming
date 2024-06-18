@@ -8,7 +8,6 @@ if __name__ == "__main__":
     arguments = argv[1:]
 
     num_argument = len(arguments)
-
     if num_argument != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
