@@ -16,13 +16,8 @@ if __name__ == "__main__":
     operator = arguments[1]
     b = int(arguments[2])
 
-    operators = ["+", "-", "*", "/"]
-    
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
-    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
-
-    if operator != operators:
+    operators = {"+":add, "-":sub, "*":mul, "/":div}
+    if operator not in operators.keys():
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
+    print("{} {} {} = {}".format(a, operator, b, operators[operator](a, b)))
